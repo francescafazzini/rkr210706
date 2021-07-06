@@ -1,0 +1,101 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title> Projects - Rotobook</title>
+    <link rel='shortcut icon' type='image/x-icon' href='assets/favicon/favicon.ico' />
+    <link href="style_mini.css" rel="stylesheet" type="text/css">
+    <link href="style_maxi.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Work+Sans' rel='stylesheet'>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Reflektor is a branding agency founded in 2016 by Martina Profumo and Michele Morosi.">
+    <meta name="keywords" content="Branding, Comunicazione, Design, Visual identity, Brand, Identità visiva, Innivazione, Innovation, Strategia, Strategy, Creative, Business, Posizionamento, Positioning, Produzione, Production, Video, Foto, UX design,Service, Servizi, Design thinking, Agenzia creativa, Milano, Milan, Tone of voice, logo, brand manual">
+    <meta name="author" content="Reflektor">
+
+
+  </head>
+  <body leftmargin="0" topmargin="0" >
+
+    <div id="banda_mobile" style="background-color:white;border-bottom: 0.1vw solid black"></div>
+
+    <div id="menu">
+      <div id="what_we_do" class="fondoBianco" style="border: 0.1vw solid transparent"> <a href="what_we_do.html"> What we do </a></div>
+      <div id="projects" class="fondoBianco" style="border: 0.1vw solid"> <a href="projects.html">Projects</a> </div>
+      <div id="about_us" class="fondoBianco" style="border: 0.1vw solid transparent"><a href="about_us.html"> About us</a> </div>
+    </div>
+
+    <img id="logoReflektor" src="assets/logo/reflektor_logo.png" alt="Reflektor_logo"></img>
+    <img id="logoFFFWD" src="assets/logo/FFFWD_logo.png" alt="FFForward_logo"></img>
+
+
+    <div id="desc">
+      <div id="titolo">Rotobook<br><br> </div>
+      Client <em>Geca Industrie Grafiche</em> / <br><em>2019</em> <br><br>
+      A new printing and service platform developed by Geca Industrie Grafiche, dedicated to independent publishers. <br><br><br>
+      <div id="read" onClick="scompare('visual');">Read more </div>
+    </div>
+
+
+    <div id="main">
+      <div id="visual">
+        <video onloadeddata="this.play();this.muted=false;" playsinline loop muted width="100%" min-height="100%" > <source src="assets/Rotobook/cover.mp4" type="video/mp4"></video>
+        <img src="assets/Rotobook/logo.jpg" style="width:100%;margin-top:20px" ></img>
+        <img src="assets/Rotobook/palette.jpg" style="width:100%;margin-top:20px" ></img>
+        <img src="assets/Rotobook/Founders_Grotesk.jpg" style="width:100%;margin-top:20px" ></img>
+        <img src="assets/Rotobook/pattern_1.jpg" style="width:100%;margin-top:20px" ></img>
+        <img src="assets/Rotobook/pattern_2.jpg" style="width:100%;margin-top:20px" ></img>
+        <img src="assets/Rotobook/pattern_3.jpg" style="width:100%;margin-top:20px" ></img>
+        <img src="assets/Rotobook/poster.jpg" style="width:100%;margin-top:20px" ></img>
+        <img src="assets/Rotobook/sito.jpg" style="width:100%;margin-top:20px" ></img>
+        <video style="margin-top:20px" width="100%" min-height="100%" controls > <source src="assets/Rotobook/intro.mp4" type="video/mp4"></video>
+        <img src="assets/Rotobook/backstage_1.jpg" style="width:100%;margin-top:20px" ></img>
+        <img src="assets/Rotobook/backstage_2.jpg" style="width:100%;margin-top:20px" ></img>
+        <img src="assets/Rotobook/backstage_3.jpg" style="width:100%;margin-top:20px" ></img>
+        <img src="assets/Rotobook/backstage_4.jpg" style="width:100%;margin-top:20px" ></img>
+
+
+      </div>
+
+      <div id="testo">
+        We handled the development of the visual identity and the positioning, helping Geca to define the key messages and the “political manifesto”.
+        We also managed the concept and production of some videos to launch the new service.
+        <br><br>
+        The design enhances the black and white, printing process features of Rotobook, creating a simple, minimal and at the same time very impactful language.
+        The logotype is inspired by the two key elements of the printing technique, which also compose the naming: the paper roll and the book.
+        These two elements were visually represented in two geometric shapes, a circle and a rectangle, which together compose the emblem.
+        <br><br>
+        The font for the logotype is the Founders Grotesk di Klim Type.
+        The color palette also includes red, as a reference to Geca.
+        <br><br>
+        From a strategic point of view, we defined together with Geca the important topics connected to Rotobook and its communication, summarized in this key message “La rotativa per tutti”. Through this ten-point “political manifesto”, Rotobook shares its philosophy and defines the key elements of the service.
+        <br><br>
+        We worked together with Geca to launch their new printing service creating an emotional video about the creation production of a book.
+        Geca invited us for one night, turning the production area into a film set.<br>
+        A quick sequence of frames catapult us inside the production process: from the roll of paper to inking, from signature mark to bookbinding, up to the cover, the viewer sees close-up the book production, discovering a fast, accurate and automated mechanism that never ceases to amaze.
+        <br><br><br>
+
+      </div>
+    </div>
+
+
+  </body>
+  <script type="text/javascript">
+
+  document.getElementById("testo").style.display='none';
+
+  function scompare(visual) {
+    if(document.getElementById("visual").style.display=='') {
+       document.getElementById("visual").style.display='none';
+       document.getElementById("testo").style.display='';
+       document.getElementById("read").innerHTML = "Read less";
+    }
+    else{
+      document.getElementById("visual").style.display='';
+      document.getElementById("testo").style.display='none';
+      document.getElementById("read").innerHTML = "Read more";
+    }
+  }
+  </script>
+
+
+
+</html>

@@ -1,0 +1,88 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title> Projects - CambiaMondo</title>
+    <link rel='shortcut icon' type='image/x-icon' href='assets/favicon/favicon.ico' />
+    <link href="style_mini.css" rel="stylesheet" type="text/css">
+    <link href="style_maxi.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Work+Sans' rel='stylesheet'>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Reflektor is a branding agency founded in 2016 by Martina Profumo and Michele Morosi.">
+    <meta name="keywords" content="Branding, Comunicazione, Design, Visual identity, Brand, Identità visiva, Innivazione, Innovation, Strategia, Strategy, Creative, Business, Posizionamento, Positioning, Produzione, Production, Video, Foto, UX design,Service, Servizi, Design thinking, Agenzia creativa, Milano, Milan, Tone of voice, logo, brand manual">
+    <meta name="author" content="Reflektor">
+
+
+  </head>
+  <body leftmargin="0" topmargin="0">
+
+    <div id="banda_mobile" style="background-color:white;border-bottom: 0.1vw solid black"></div>
+
+    <div id="menu">
+      <div id="what_we_do" class="fondoBianco" style="border: 0.1vw solid transparent"> <a href="what_we_do.html"> What we do </a></div>
+      <div id="projects" class="fondoBianco" style="border: 0.1vw solid"> <a href="projects.html">Projects</a> </div>
+      <div id="about_us" class="fondoBianco" style="border: 0.1vw solid transparent"><a href="about_us.html"> About us</a> </div>
+    </div>
+
+    <img id="logoReflektor" src="assets/logo/reflektor_logo.png" alt="Reflektor_logo"></img>
+    <img id="logoFFFWD" src="assets/logo/FFFWD_logo.png" alt="FFForward_logo"></img>
+
+
+    <div id="desc">
+      <div id="titolo">CambiaMondo<br><br> </div>
+      Client <em>Siram Veolia</em> / <br><em>2018</em> <br><br>
+      A multi-touchpoint educational project dedicated to 6-10-year-old kids.  <br><br><br>
+      <div id="read" onClick="scompare('visual');">Read more </div>
+    </div>
+
+
+    <div id="main">
+      <div id="visual">
+        <video onloadeddata="this.play();this.muted=false;" playsinline loop muted width="100%" min-height="100%" > <source src="assets/Cambiamondo/cover.mp4" type="video/mp4"></video>
+        <video style="margin-top:20px" width="100%" min-height="100%" controls > <source src="assets/Cambiamondo/intro.mp4" type="video/mp4"></video>
+        <img src="assets/Cambiamondo/riunione.jpg" style="width:100%;margin-top:20px" ></img>
+        <img src="assets/Cambiamondo/disegno.jpg" style="width:100%;margin-top:20px" ></img>
+        <img src="assets/Cambiamondo/stesi_1.jpg" style="width:100%;margin-top:20px" ></img>
+        <img src="assets/Cambiamondo/stesi_2.jpg" style="width:100%;margin-top:20px" ></img>
+        <img src="assets/Cambiamondo/laboratorio.jpg" style="width:100%;margin-top:20px" ></img>
+        <img src="assets/Cambiamondo/libro.jpg" style="width:100%;margin-top:20px" ></img>
+        <img src="assets/Cambiamondo/set.jpg" style="width:100%;margin-top:20px" ></img>
+      </div>
+
+      <div id="testo">
+        The assignment from Siram Veolia, leader in energy management solutions, was to help them create an educational project focused on sustainability targeted at the youngest generations.
+        Starting from Siram Veolia brand positioning and values, we supported them jn developing “Cambiamondo”: a multi-touchpoint educational project dedicated to 6-10-year-old kids.
+        <br><br>
+        “Cambiamondo” had the ambition of educating the new generations in building a more sustainable world through everyday actions.
+        In January 2019 the first two steps of the project were launched: the book and the workshops.
+        <br><br>
+        Published by Gribaudo &mdash; IF &mdash; Idee Editoriali Feltrinelli, the book “Cambiamondo” includes scientific experiments, engaging artistic exercises, stickers, games, challenges and video animations, together with content on sustainability, specifically addressed to the main target.
+        <br><br>
+        After the launch of the book “Cambiambo” entered primary school classes with educational workshops where kids were involved in the building of a paper crafted house embedded with a mini solar panel that enabled a mini wind fan.
+
+        <br><br><br>
+      </div>
+    </div>
+
+
+  </body>
+  <script type="text/javascript">
+
+  document.getElementById("testo").style.display='none';
+
+  function scompare(visual) {
+    if(document.getElementById("visual").style.display=='') {
+       document.getElementById("visual").style.display='none';
+       document.getElementById("testo").style.display='';
+       document.getElementById("read").innerHTML = "Read less";
+    }
+    else{
+      document.getElementById("visual").style.display='';
+      document.getElementById("testo").style.display='none';
+      document.getElementById("read").innerHTML = "Read more";
+    }
+  }
+  </script>
+
+
+
+</html>

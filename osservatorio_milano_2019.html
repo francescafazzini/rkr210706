@@ -1,0 +1,85 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title> Projects - Osservatorio Milano 2019</title>
+    <link rel='shortcut icon' type='image/x-icon' href='assets/favicon/favicon.ico' />
+    <link href="style_mini.css" rel="stylesheet" type="text/css">
+    <link href="style_maxi.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Work+Sans' rel='stylesheet'>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Reflektor is a branding agency founded in 2016 by Martina Profumo and Michele Morosi.">
+    <meta name="keywords" content="Branding, Comunicazione, Design, Visual identity, Brand, Identità visiva, Innivazione, Innovation, Strategia, Strategy, Creative, Business, Posizionamento, Positioning, Produzione, Production, Video, Foto, UX design,Service, Servizi, Design thinking, Agenzia creativa, Milano, Milan, Tone of voice, logo, brand manual">
+    <meta name="author" content="Reflektor">
+
+
+  </head>
+  <body leftmargin="0" topmargin="0" >
+
+    <div id="banda_mobile" style="background-color:white;border-bottom: 0.1vw solid black"></div>
+
+    <div id="menu">
+      <div id="what_we_do" class="fondoBianco" style="border: 0.1vw solid transparent"> <a href="what_we_do.html"> What we do </a></div>
+      <div id="projects" class="fondoBianco" style="border: 0.1vw solid"> <a href="projects.html">Projects</a> </div>
+      <div id="about_us" class="fondoBianco" style="border: 0.1vw solid transparent"><a href="about_us.html"> About us</a> </div>
+    </div>
+
+    <img id="logoReflektor" src="assets/logo/reflektor_logo.png" alt="Reflektor_logo"></img>
+    <img id="logoFFFWD" src="assets/logo/FFFWD_logo.png" alt="FFForward_logo"></img>
+
+
+    <div id="desc">
+      <div id="titolo">Osservatorio Milano 2019<br><br> </div>
+      Client <em>Assolombarda</em> / <br><em>2019</em> <br><br>
+      An editorial and digital tool to benchmark the attractiveness and competitiveness of Milan in the international context. <br><br><br>
+      <div id="read" onClick="scompare('visual');">Read more </div>
+    </div>
+
+
+    <div id="main">
+      <div id="visual">
+        <video onloadeddata="this.play();this.muted=false;" playsinline loop muted width="100%" min-height="100%" > <source src="assets/OsservatorioMilano2019/cover.mp4" type="video/mp4"></video>
+        <img src="assets/OsservatorioMilano2019/prima.jpg" style="width:100%" ></img>
+        <img src="assets/OsservatorioMilano2019/mappe.jpg" style="width:100%" ></img>
+        <img src="assets/OsservatorioMilano2019/steso.jpg" style="width:100%" ></img>
+        <img src="assets/OsservatorioMilano2019/interno_1.jpg" style="width:100%" ></img>
+        <img src="assets/OsservatorioMilano2019/interno_2.jpg" style="width:100%" ></img>
+      </div>
+
+      <div id="testo">
+        For the second consecutive year we created the visual identity of Osservatorio Milano, a project of Assolombarda developed together with Comune di Milano.<br>
+        We revisited how to describe a city, how to recall its personality in a recognizable way and, specifically, how to present data, numbers and insights related to Milan.
+        We started from the idea of the main visual: circular shapes, that recall the urban structure of Milan, aligned in a dynamic way and in different sizes on all the project materials.
+        The circular shape of these elements also appears in the title of the volume, with a full “o” linking the words “Osservatorio” and “Milano”, written end-to end and vertically.
+        <br><br>
+        From a chromatic point of view we proposed the combination of two colors: ochre and petroleum blue.
+        <br><br>
+        As well as the main volume, we curated the graphic of 9 maps inserted in a separate folder.
+        Each map analyses and spatially displays some of the most important phenomena examined by the report.
+        <br><br><br>
+
+      </div>
+    </div>
+
+
+  </body>
+  <script type="text/javascript">
+
+  document.getElementById("testo").style.display='none';
+
+  function scompare(visual) {
+    if(document.getElementById("visual").style.display=='') {
+       document.getElementById("visual").style.display='none';
+       document.getElementById("testo").style.display='';
+       document.getElementById("read").innerHTML = "Read less";
+    }
+    else{
+      document.getElementById("visual").style.display='';
+      document.getElementById("testo").style.display='none';
+      document.getElementById("read").innerHTML = "Read more";
+    }
+  }
+  </script>
+
+
+
+</html>

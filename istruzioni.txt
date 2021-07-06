@@ -1,0 +1,16 @@
+PER INSERIRE UNA NUOVA CASE
+
+DA PREPARARE:
+- copia il file "assolombarda.html" e rinominalo "nome_progetto.html"
+- crea nella cartella "assets" una cartella "NomeProgetto" in cui mettere tutti i file video e audio (Nota: chiama il video copertina "cover.mp4")
+
+
+PASSAGGIO #1
+  - vai in "projects.html";
+    all'interno del div "main" troverai il div "griglia" che contiene i video in autoplay dei diversi progetti.
+    Ogni video è contenuto in un div nominato con id tipo "unouno","unodue"...
+      NOTA*: Il primo numero indica la riga, il secondo la colonna (visualizzazione desktop).
+             Quindi la numerazione prosegue così: unouno, unodue, dueuno, duedue, treuno, tredue...
+
+  -  Duplica l'ultima riga e modifica il nome del div secondo il criterio in NOTA*
+  -  Modifica anche il percorso

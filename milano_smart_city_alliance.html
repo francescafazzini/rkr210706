@@ -1,0 +1,98 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title> Projects - Milano Smart City Alliance</title>
+    <link rel='shortcut icon' type='image/x-icon' href='assets/favicon/favicon.ico' />
+    <link href="style_mini.css" rel="stylesheet" type="text/css">
+    <link href="style_maxi.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Work+Sans' rel='stylesheet'>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Reflektor is a branding agency founded in 2016 by Martina Profumo and Michele Morosi.">
+    <meta name="keywords" content="Branding, Comunicazione, Design, Visual identity, Brand, Identità visiva, Innivazione, Innovation, Strategia, Strategy, Creative, Business, Posizionamento, Positioning, Produzione, Production, Video, Foto, UX design,Service, Servizi, Design thinking, Agenzia creativa, Milano, Milan, Tone of voice, logo, brand manual">
+    <meta name="author" content="Reflektor">
+
+
+  </head>
+  <body leftmargin="0" topmargin="0">
+
+    <div id="banda_mobile" style="background-color:white;border-bottom: 0.1vw solid black"></div>
+
+    <div id="menu">
+      <div id="what_we_do" class="fondoBianco" style="border: 0.1vw solid transparent"> <a href="what_we_do.html"> What we do </a></div>
+      <div id="projects" class="fondoBianco" style="border: 0.1vw solid"> <a href="projects.html">Projects</a> </div>
+      <div id="about_us" class="fondoBianco" style="border: 0.1vw solid transparent"><a href="about_us.html"> About us</a> </div>
+    </div>
+
+    <img id="logoReflektor" src="assets/logo/reflektor_logo.png" alt="Reflektor_logo"></img>
+    <img id="logoFFFWD" src="assets/logo/FFFWD_logo.png" alt="FFForward_logo"></img>
+
+
+    <div id="desc">
+      <div id="titolo">Milano Smart City Alliance<br><br> </div>
+      Client <em>Assolombarda</em> / <br><em>2021</em> <br><br>
+      A new urban development model based on innovation, sustainability and collaboration. <br><br><br>
+      <div id="read" onClick="scompare('visual');">Read more </div>
+    </div>
+
+
+    <div id="main">
+      <div id="visual">
+        <video onloadeddata="this.play();this.muted=false;" playsinline loop muted width="100%" min-height="100%"> <source src="assets/MSCA/cover.mp4" type="video/mp4"></video>
+        <video onloadeddata="this.play();this.muted=false;" playsinline loop muted style="margin-top:20px" width="100%" min-height="100%" > <source src="assets/MSCA/duotone.mp4" type="video/mp4"></video>
+        <img src="assets/MSCA/logo.png" style="width:100%" ></img>
+        <img src="assets/MSCA/palette.png" style="width:100%" ></img>
+        <video onloadeddata="this.play();this.muted=false;" playsinline loop muted width="100%" min-height="100%"> <source src="assets/MSCA/costruzione_marchio.mp4" type="video/mp4"></video>
+        <img src="assets/MSCA/Montserrat.png" style="width:100%" ></img>
+        <img src="assets/MSCA/website.jpg" style="width:100%" ></img>
+        <img src="assets/MSCA/instagram.jpg" style="width:100%;margin-top:20px" ></img>
+        <img src="assets/MSCA/billboard_vert.jpg" style="width:100%;margin-top:20px" ></img>
+        <img src="assets/MSCA/billboard_orizz.jpg" style="width:100%;margin-top:20px" ></img>
+        <img src="assets/MSCA/cartellina.jpg" style="width:100%;margin-top:20px" ></img>
+        <img src="assets/MSCA/coordinato_base.jpg" style="width:100%" ></img>
+      </div>
+
+      <div id="testo">
+        Milano Smart City Alliance is a group of companies united by the desire to set up a new urban development model based on innovation, sustainability and collaboration.
+        <br><br>
+        We defined Milano Smart City’s particular features and created a strategic positioning for the new brand starting from an in-depth analysis of the concept of the “smart city” and its evolution over time. We then put together and studied a  benchmark of smart cities worldwide.
+        <br><br>
+        From this work we created an identity system able to convey the Alliance's founding values and combine all the members’ individual voices.
+        <br><br>
+        We played with the tones of electric blue and yellow to design a dynamic and versatile visual identity.
+        <br><br>
+        In addition to the color palette and the photographic style another key element of the overall visual system is the characteristic ‘M’ logo, designed through a series of pivots and moveable connections.
+        The graphic system as a whole emphasizes the concept of connection, innovation, and sharing, which drives the project.
+        <br><br>
+        The members of Milano Smart City Alliance are:<br>
+        A2A smartcity, Accenture, Assolombarda, ATM, Cisco, COIMA, Enel eX, Fastweb, IBM, Siemens, TIM
+
+        <br><br><br>
+
+      </div>
+    </div>
+
+
+  </body>
+  <script type="text/javascript">
+
+
+  document.getElementById("testo").style.display='none';
+
+  function scompare(visual) {
+    if(document.getElementById("visual").style.display=='') {
+       document.getElementById("visual").style.display='none';
+       document.getElementById("testo").style.display='';
+       document.getElementById("read").innerHTML = "Read less";
+    }
+    else{
+      document.getElementById("visual").style.display='';
+      document.getElementById("testo").style.display='none';
+      document.getElementById("read").innerHTML = "Read more";
+    }
+  }
+  </script>
+
+
+
+
+</html>

@@ -1,0 +1,92 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title> Projects - #powerthefuture</title>
+    <link rel='shortcut icon' type='image/x-icon' href='assets/favicon/favicon.ico' />
+    <link href="style_mini.css" rel="stylesheet" type="text/css">
+    <link href="style_maxi.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Work+Sans' rel='stylesheet'>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Reflektor is a branding agency founded in 2016 by Martina Profumo and Michele Morosi.">
+    <meta name="keywords" content="Branding, Comunicazione, Design, Visual identity, Brand, Identità visiva, Innivazione, Innovation, Strategia, Strategy, Creative, Business, Posizionamento, Positioning, Produzione, Production, Video, Foto, UX design,Service, Servizi, Design thinking, Agenzia creativa, Milano, Milan, Tone of voice, logo, brand manual">
+    <meta name="author" content="Reflektor">
+
+
+  </head>
+  <body leftmargin="0" topmargin="0" >
+
+    <div id="banda_mobile" style="background-color:white;border-bottom: 0.1vw solid black"></div>
+
+    <div id="menu">
+      <div id="what_we_do" class="fondoBianco" style="border: 0.1vw solid transparent"> <a href="what_we_do.html"> What we do </a></div>
+      <div id="projects" class="fondoBianco" style="border: 0.1vw solid"> <a href="projects.html">Projects</a> </div>
+      <div id="about_us" class="fondoBianco" style="border: 0.1vw solid transparent"><a href="about_us.html"> About us</a> </div>
+    </div>
+
+    <img id="logoReflektor" src="assets/logo/reflektor_logo.png" alt="Reflektor_logo"></img>
+    <img id="logoFFFWD" src="assets/logo/FFFWD_logo.png" alt="FFForward_logo"></img>
+
+
+    <div id="desc">
+      <div id="titolo">#powerthefuture<br><br> </div>
+      Client <em>Fluid-o-Tech</em> / <br><em>2018</em> <br><br>
+      An internal engagement campaign to celebrate the company’s “Power The Future” vision. <br><br><br>
+      <div id="read" onClick="scompare('visual');">Read more </div>
+    </div>
+
+
+    <div id="main">
+      <div id="visual">
+        <video onloadeddata="this.play();this.muted=false;" playsinline loop muted width="100%" min-height="100%" > <source src="assets/PowerTheFuture/cover.mp4" type="video/mp4"></video>
+          <img src="assets/PowerTheFuture/powerthefuture.jpg" style="width:100%;margin-top:20px" ></img>
+          <img src="assets/PowerTheFuture/corridoio.jpg" style="width:100%;margin-top:20px" ></img>
+          <img src="assets/PowerTheFuture/statement.jpg" style="width:100%;margin-top:20px" ></img>
+          <img src="assets/PowerTheFuture/attesa.jpg" style="width:100%;margin-top:20px" ></img>
+          <video style="margin-top:20px" width="100%" min-height="100%" controls poster="assets/PowerTheFuture/backstage_poster.jpg"> <source src="assets/PowerTheFuture/backstage.mp4" type="video/mp4"></video>
+          <img src="assets/PowerTheFuture/backstage_1.jpg" style="width:100%;margin-top:20px" ></img>
+          <img src="assets/PowerTheFuture/backstage_2.jpg" style="width:100%;margin-top:20px" ></img>
+          <img src="assets/PowerTheFuture/backstage_3.jpg" style="width:100%;margin-top:20px" ></img>
+      </div>
+
+      <div id="testo">
+        To celebrate the 70th Anniversary of Fluid-o-Tech, we proposed a campaign aimed at telling the story of the company and communicating its vision of the future.
+        <br><br>
+        “Power the Future” is both a photographic campaign and an internal engagement project, targeted at all employees, who were invited to express their point of view about the future.
+        <br><br>
+        As well as the project concept, we designed all the campaign materials and content.<br>
+        Over two days, we shot more than fifty portraits on a set specifically prepared inside the company’s headquarters.<br>
+        Pictures and captions of Fluid-o-Tech employees create a mosaic of different points of view about the future, displayed  in different ways on different communication channels.<br>
+        One of the most important graphics concerns the personalization of the headquarters’ spaces.<br>
+        <br><br>
+        The pictures of the project liven up the new Fluid-o-Tech waiting room: a gallery made up of all the pictures and the introductory text “Power the Future” welcome the visitor with an overview of the company vision of the future.
+        Some of the campaign images were printed as enlargements and lead visitors and employees into the sales area and the meeting room.
+        <br><br>
+        In addition to headquarter’s spaces, the campaign was spread by Fluid-o-Tech on its social media channels and in a specific section of the company website.
+        <br><br><br>
+
+      </div>
+    </div>
+
+
+  </body>
+  <script type="text/javascript">
+
+  document.getElementById("testo").style.display='none';
+
+  function scompare(visual) {
+    if(document.getElementById("visual").style.display=='') {
+       document.getElementById("visual").style.display='none';
+       document.getElementById("testo").style.display='';
+       document.getElementById("read").innerHTML = "Read less";
+    }
+    else{
+      document.getElementById("visual").style.display='';
+      document.getElementById("testo").style.display='none';
+      document.getElementById("read").innerHTML = "Read more";
+    }
+  }
+  </script>
+
+
+
+</html>
