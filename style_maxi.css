@@ -90,16 +90,17 @@ em{
   position: fixed;
   width: 6vw;
 }
-
+#banda_mobile{
+	visibility: hidden;
+}
 
 
 /**landing**/
-#logo_grande{
-	width:60vw;
-	margin-left:20vw;
-	margin-top:120px;
-	position: absolute;
+#wiggle{
+	width:100%;
+	overflow: hidden;
 }
+
 
 
 /**what we do**/
@@ -433,6 +434,10 @@ em{
   padding:3px;
   padding-left: 10px;
 }
+#links_mobile{
+	visibility: hidden;
+	height:0px;
+}
 #who{
   margin-top: 120px;
   width: 50vw;
@@ -457,7 +462,11 @@ em{
 	margin-top: 120px;
   font-size: 0.75vw;
 	width: 50vw;
+	position: absolute;
 
+}
+#close{
+	visibility: hidden;
 }
 
 /**progetti**/
