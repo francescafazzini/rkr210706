@@ -77,11 +77,10 @@ em{
 }
 
 /**landing**/
-#logo_grande{
-	width:60vw;
-	margin-left:20vw;
-	margin-top:140px;
-	position: absolute;
+#wiggle{
+	height:100%;
+position: fixed;
+z-index: -3;
 }
 /**about us**/
 .titolini{
@@ -347,20 +346,21 @@ em{
 
 /**about us**/
 #links{
+	visibility: hidden;
+	height: 0px;
+}
+#links_mobile{
+	font-size: 10px;
+position: absolute;
+}
+
+#who{
 	margin-top: 140px;
 	margin-left: 5vw;
 	margin-right: 5vw;
   width: 90vw;
   position: absolute;
-	font-size: 15px;
-}
-#who{
-	margin-top: 330px;
-	margin-left:5vw;
-	margin-right:5vw;
-	width: 90vw;
 	font-size: 25px;
-	position: relative;
 }
 #who::-webkit-scrollbar {
     display: none;
@@ -376,10 +376,13 @@ em{
 }
 #dettagli{
   font-size: 10px;
-	margin-top: 330px;
+	margin-top: 140px;
 	width: 90vw;
 	margin-left:5vw;
 	margin-right:5vw;
+	padding-top:3px;
+	padding-bottom:3px;
+
 }
 
 /**progetti**/
